@@ -7,8 +7,7 @@ function WelcomeDiv() {
   axios({
     method:'get',
     url:'https://kls-college-project-hospital.herokuapp.com/StartServer',
-    data: {
-            }
+    data: {}
     })
     .then((response)=> {
     }, (error) => {
