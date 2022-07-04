@@ -20,7 +20,7 @@ function LoginDiv() {
 
       axios({
 method:'post',
-url:'https://kls-hospital-college-project.herokuapp.com/ValidateUser',
+url:'https://kls-college-project-hospital.herokuapp.com/ValidateUser',
 data: {
 	PostUserId : UserId ,
 	PostPassword : Password,
