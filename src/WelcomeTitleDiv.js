@@ -4,7 +4,7 @@ import axios from 'axios';
 function WelcomeTitleDiv() {
   axios({
     method:'get',
-    url:'https://kls-hospital-college-project.herokuapp.com/StartServer',
+    url:'https://kls-college-project-hospital.herokuapp.com/StartServer',
     data: {
             }
     })
