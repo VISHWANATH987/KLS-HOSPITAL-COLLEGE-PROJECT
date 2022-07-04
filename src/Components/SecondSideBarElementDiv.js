@@ -39,7 +39,7 @@ function SecondSideBarElementDiv() {
 
         axios({
   method:'post',
-  url:'https://kls-hospital-college-project.herokuapp.com/doctor',
+  url:'https://kls-college-project-hospital.herokuapp.com/doctor',
   data: {
           id : Id,
           dname : Name,
