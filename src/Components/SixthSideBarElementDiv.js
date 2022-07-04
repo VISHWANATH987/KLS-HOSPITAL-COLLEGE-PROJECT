@@ -33,7 +33,7 @@ function SixthSideBarElementDiv() {
     useEffect(() => {
         axios({
             method:'get',
-            url:'https://kls-hospital-college-project.herokuapp.com/patient',
+            url:'https://kls-college-project-hospital.herokuapp.com/patient',
             data: {
           
                 }
