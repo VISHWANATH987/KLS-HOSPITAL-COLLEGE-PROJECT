@@ -43,7 +43,7 @@ function EditPatientProfile() {
 
     axios({
 method:'post',
-url:'https://kls-hospital-college-project.herokuapp.com/patient',
+url:'https://kls-college-project-hospital.herokuapp.com/patient',
 data: {
       id : Id,
       pname : Name,
