@@ -302,7 +302,7 @@ function ScheduleAppointmentDiv() {
 
   axios({
     method:'post',
-    url:'https://kls-hospital-college-project.herokuapp.com/doctor',
+    url:'https://kls-college-project-hospital.herokuapp.com/doctor',
     data: {
         id : Doctors[selectedIndexTemp-1].id,
         dname : Doctors[selectedIndexTemp-1].dname,
